@@ -77,18 +77,13 @@ export const PROJECTS = [
   {
     name: 'Encode SVG',
     desc: 'SVG 格式化，转 Base64 。background-image 可用',
-描述：'SVG 格式化并转为 Base64，可用于 background-image'
     cover: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20240222135732.png',
-封面: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20240222135732.png',
-封面: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20240222135732.png',
     demoUrl: 'https://encodesvg.mmeme.me/',
     repoUrl: 'https://github.com/pinky-pig/encode-svg',
   },
-"},"
-  {  “{”
+  {
     name: 'Html2particle',
     desc: 'DOM 元素转 Canvas 粒子',
-描述：'将 DOM 元素转换为 Canvas 粒子'
     cover: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20240222140019.png',
     demoUrl: 'https://html2particle.mmeme.me/guide/demo.html',
     repoUrl: 'https://github.com/pinky-pig/html2particle',
