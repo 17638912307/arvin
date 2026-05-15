@@ -10,24 +10,16 @@ export const navFilter = [
 export const SITE = {
   title: '博客',
   author: 'Arvin',
-  description: '记录 土土 的不枯燥生活',
-  profileContent  个人资料内容: '我是土土 目前生活在杭州的设计师 我很喜欢 Adobe Photoshop 去P图 目前是一个不做设计的设计师  ',
-  keywords  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词: 'Arvin, Blog, 前端, Vue, 博客',
-  coordinate  坐标  坐标: [118.888175, 32.048268],
-坐标: [118.888175, 32.048268],
-  icon  图标  图标: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/imageslogo.svg',
-图标: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/imageslogo.svg',
-  pic  图片  图片: 'https://cdn.fliggy.coblogPagem/upic/2XFNGI.png',
-  cv  简历  简历: 'https://cv.mmeme.me/',
-简历: 'https://cv.mmeme.me/',
-  juejin  掘金: 'https://juejin.cn/user/149189314490520/posts',
-掘金: 'https://juejin.cn/user/149189314490520/posts',
-  mail  邮件: 'mailto:2545589993@qq.com',
-邮箱: 'mailto:2545589993@qq.com',
-邮箱: 'mailto:2545589993@qq.com',
+  description: '记录 Arvin 的不枯燥生活',
+  profileContent: '我是Arvin，目前生活在南京的开发者。我很喜欢 Vue、Nuxt。目前从事前端开发及 WebGIS 。',
+  keywords: 'Arvin, Blog, 前端, Vue, 博客',
+  coordinate: [118.888175, 32.048268],
+  icon: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/imageslogo.svg',
+  pic: 'https://cdn.fliggy.coblogPagem/upic/2XFNGI.png',
+  cv: 'https://cv.mmeme.me/',
+  juejin: 'https://juejin.cn/user/149189314490520/posts',
+  mail: 'mailto:2545589993@qq.com',
   homePage: '/',
-首页: '/',
-首页: '/',
   profilePage: '/profile',
   twitterId: 'ArvinnWang',
   twitterUrl: 'https://twitter.com/ArvinnWang',
@@ -68,9 +60,7 @@ export const bentoCustomComponentsCfg = [
  * 项目的内容
  */
 export const PROJECTS = [
-  {  “{”
-{ “  ""{” }
-{ “{” }
+  {
     name: 'Arvin',
     desc: '个人网站',
     cover: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20230625154539.png',
@@ -87,24 +77,17 @@ export const PROJECTS = [
   {
     name: 'Encode SVG',
     desc: 'SVG 格式化，转 Base64 。background-image 可用',
+描述：'SVG 格式化并转为 Base64，可用于 background-image'
     cover: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20240222135732.png',
+封面: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20240222135732.png',
 封面: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20240222135732.png',
     demoUrl: 'https://encodesvg.mmeme.me/',
     repoUrl: 'https://github.com/pinky-pig/encode-svg',
   },
 "},"
-"},"  “}”,”
-"},"  “}”,”
-“}”,”
   {  “{”
-{ “{” }
-{ “{” }
-{ “{” }
     name: 'Html2particle',
     desc: 'DOM 元素转 Canvas 粒子',
-描述：'将 DOM 元素转换为 Canvas 粒子'
-描述：'将 DOM 元素转换为 Canvas 粒子'
-描述：'将 DOM 元素转换为 Canvas 粒子'
 描述：'将 DOM 元素转换为 Canvas 粒子'
     cover: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20240222140019.png',
     demoUrl: 'https://html2particle.mmeme.me/guide/demo.html',
@@ -129,13 +112,13 @@ export const PROJECTS = [
     desc: '我们',
     cover: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20231023093538.png',
     demoUrl: 'https://love.mmeme.me/',
-demoUrl: 'https://love.mmeme.me/',"
     repoUrl: 'https://github.com/pinky-pig/my-love',
   },
-"},"
   {  “{”
     name: 'What Holidays',
+名称: '节日'
     desc: '地区节假日查询',
+desc: '地区节假日查询'
     cover: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20230922130106.png',
     demoUrl: 'https://holiday.mmeme.me/',
     repoUrl: 'https://github.com/pinky-pig/what-holidays',
@@ -162,7 +145,6 @@ demoUrl: 'https://love.mmeme.me/',"
     demoUrl: 'https://svgpath.mmeme.me/',
     repoUrl: 'https://github.com/pinky-pig/icons-basic-edit',
   },
-"},"
 ]
 
 export const giscusSetting = {
