@@ -9,18 +9,23 @@ export const navFilter = [
 
 export const SITE = {
   title: '博客',
-  author: 'Arvin',
+  author: '土土',
   description: '记录 土土 的不枯燥生活',
   profileContent: '我是土土，目前在杭州艰难打工ing。我很喜欢Adobe Photoshop 给甲方P图。目前从事不做设计的设计师岗位。',
-  keywords  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词: 'Arvin, Blog, 前端, Vue, 博客',
-  coordinate  坐标  坐标: [118.888175, 32.048268],
-  icon  图标  图标: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/imageslogo.svg',
-  pic  图片  图片  图片: 'https://cdn.fliggy.coblogPagem/upic/2XFNGI.png',
+  keywords: 'Arvin, Blog, 前端, Vue, 博客',
+  coordinate: [118.888175, 32.048268],
+  icon: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/imageslogo.svg',
+  pic: 'https://cdn.fliggy.com/upic/2XFNGI.png',
   cv: 'https://cv.mmeme.me/',
+简历: 'https://cv.mmeme.me/',
   juejin: 'https://juejin.cn/user/149189314490520/posts',
+掘金: 'https://juejin.cn/user/149189314490520/posts',
   mail: 'mailto:2545589993@qq.com',
+邮箱: 'mailto:2545589993@qq.com',
   homePage: '/',
+首页: '/',
   profilePage: '/profile',
+个人简介页: '/profile'
   twitterId: 'ArvinnWang',
   twitterUrl: 'https://twitter.com/ArvinnWang',
   githubId: 'pinky-pig',
@@ -31,9 +36,6 @@ export const SITE = {
   consoleColorFulOutput: '%cDon\'t ignore your dreams \nDon\'t work too much \nsay what you think \ncultivate friendships \nbe happy~ ',
 }
 
-/**
- * 首页 Bento 通用组件布局
- */
 export const bentoCommonComponentsCfg = [
   { id: 'Profile', x: 0, y: 0, width: 2, height: 2, index: 0 },
   { id: 'Weekly', x: 2, y: 0, width: 2, height: 1, index: 0 },
@@ -47,18 +49,12 @@ export const bentoCommonComponentsCfg = [
   { id: 'PageTransition', x: 4, y: 2, width: 1, height: 1, index: 0 },
 ]
 
-/**
- * 首页 Bento 自定义组件布局
- */
 export const bentoCustomComponentsCfg = [
   { id: 'StrokeText', x: 2, y: 2, width: 1, height: 1, index: 0 },
   { id: 'Sticker8', x: 3, y: 3, width: 1, height: 1, index: 0 },
   { id: 'Cover', x: 0, y: 2, width: 1, height: 2, index: 0 },
 ]
 
-/**
- * 项目的内容
- */
 export const PROJECTS = [
   {
     name: 'Arvin',
@@ -73,17 +69,18 @@ export const PROJECTS = [
     cover: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20230728150846.png',
     demoUrl: 'https://superellipse.mmeme.me/',
     repoUrl: 'https://github.com/pinky-pig/superellipse-svg',
+repoUrl: 'https://github.com/pinky-pig/superellipse-svg'
   },
 "},"
-  {  “{”
+  {
     name: 'Encode SVG',
-名称：'Encode SVG'，
     desc: 'SVG 格式化，转 Base64 。background-image 可用',
     cover: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20240222135732.png',
     demoUrl: 'https://encodesvg.mmeme.me/',
     repoUrl: 'https://github.com/pinky-pig/encode-svg',
   },
-  {
+"},"
+  {  “{”
     name: 'Html2particle',
     desc: 'DOM 元素转 Canvas 粒子',
     cover: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20240222140019.png',
@@ -121,12 +118,11 @@ export const PROJECTS = [
   {
     name: 'Plane Window Scene',
     desc: '学习 Cesium 的过程中，实现的飞机窗口场景',
-    cover: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20230725171710.png',
+    cover: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20230725171717.png',
     demoUrl: 'https://scene.mmeme.me/',
     repoUrl: 'https://github.com/pinky-pig/plane-window-scene',
   },
-
-    {
+  {
     name: 'What Is My HTML Preview',
     desc: '使用 Monaco Editor 实现的 HTML 预览',
     cover: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20230627103859.png',
