@@ -10,12 +10,12 @@ export const navFilter = [
 export const SITE = {
   title: '博客',
   author: 'Arvin',
-  description: '记录 Arvin 的不枯燥生活',
-  profileContent: '我是Arvin，目前生活在南京的开发者。我很喜欢 Vue、Nuxt。目前从事前端开发及 WebGIS 。',
-  keywords: 'Arvin, Blog, 前端, Vue, 博客',
-  coordinate: [118.888175, 32.048268],
-  icon: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/imageslogo.svg',
-  pic: 'https://cdn.fliggy.coblogPagem/upic/2XFNGI.png',
+  description: '记录 土土 的不枯燥生活',
+  profileContent: '我是土土，目前在杭州艰难打工ing。我很喜欢Adobe Photoshop 给甲方P图。目前从事不做设计的设计师岗位。',
+  keywords  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词: 'Arvin, Blog, 前端, Vue, 博客',
+  coordinate  坐标  坐标: [118.888175, 32.048268],
+  icon  图标  图标: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/imageslogo.svg',
+  pic  图片  图片  图片: 'https://cdn.fliggy.coblogPagem/upic/2XFNGI.png',
   cv: 'https://cv.mmeme.me/',
   juejin: 'https://juejin.cn/user/149189314490520/posts',
   mail: 'mailto:2545589993@qq.com',
@@ -74,8 +74,10 @@ export const PROJECTS = [
     demoUrl: 'https://superellipse.mmeme.me/',
     repoUrl: 'https://github.com/pinky-pig/superellipse-svg',
   },
-  {
+"},"
+  {  “{”
     name: 'Encode SVG',
+名称：'Encode SVG'，
     desc: 'SVG 格式化，转 Base64 。background-image 可用',
     cover: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20240222135732.png',
     demoUrl: 'https://encodesvg.mmeme.me/',
@@ -124,7 +126,7 @@ export const PROJECTS = [
     repoUrl: 'https://github.com/pinky-pig/plane-window-scene',
   },
 
-  {
+    {
     name: 'What Is My HTML Preview',
     desc: '使用 Monaco Editor 实现的 HTML 预览',
     cover: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20230627103859.png',
