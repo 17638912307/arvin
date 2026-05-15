@@ -11,7 +11,7 @@ export const SITE = {
   title: '博客',
   author: 'Arvin',
   description: '记录 土土 的不枯燥生活',
-  profileContent  个人资料内容: '我是土土，目前生活在杭州的设计师。我很喜欢 Adobe Photoshop 去P图。目前是一个不做设计的设计师 。',
+  profileContent  个人资料内容: '我是土土 目前生活在杭州的设计师 我很喜欢 Adobe Photoshop 去P图 目前是一个不做设计的设计师  ',
   keywords  关键词  关键词  关键词  关键词  关键词  关键词  关键词  关键词: 'Arvin, Blog, 前端, Vue, 博客',
   coordinate  坐标  坐标: [118.888175, 32.048268],
 坐标: [118.888175, 32.048268],
